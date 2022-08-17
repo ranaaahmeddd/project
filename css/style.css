@@ -1,0 +1,117 @@
+body{
+    font-family: "PT Serif" ;
+}
+header{
+    min-height: 100vh;
+   
+    background-position: center; 
+    background: url(../images/image1.jpg);
+    background-size: cover;
+    padding-top: 250px;
+}
+.nav-link{
+   
+    margin-right: 20px;
+    font-size: 1.2rem;
+     font-weight: 700;
+    color: white;
+}
+.nav-link:hover{
+    color: #1981aa;
+}
+.navbar{
+    box-shadow: 0 2px 6px rgba(29, 41, 44, 0.7);
+}
+span{
+    color: #1981aa;
+}
+a{
+    text-decoration: none;
+    color:#25AEE4 ;
+}
+h2{
+    font-size: 2rem;
+}
+h2 span{
+    color: #25AEE4;
+}
+
+.dentist{
+  padding-top: 70px;
+  font-size: 20px;
+
+}
+.dentist h3{
+    color: #25AEE4;
+}
+
+.dentist button{
+   background-color: #25AEE4;
+   color: white; 
+}
+.dentist button:hover{
+    background-color: whitesmoke; 
+    color: #25AEE4;
+ }
+ #form{
+    min-height: 60vh;
+    background:linear-gradient(rgba(255, 255, 255, 0.203),rgba(255, 255, 255, 0.367)) ,url(../images/image6\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    background-color: #25AEE4;
+}
+h1{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+footer{
+    padding: 20px 0px;
+    background-color: white;
+    color: black;
+   text-align: center;
+}
+footer p{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-nav {
+    list-style: none;
+    display: flex;
+}
+.footer-nav li{
+    margin-left: 30px;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.footer-nav li a:hover{
+    color: #1981aa;
+}
+.social-nav{
+    list-style: none;
+    display: flex;
+    padding-left: 400px;
+   
+}
+.social-nav li{
+    margin-left: 30px; 
+  
+}
+.social-nav li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.social-nav li a:hover{
+    
+    color: #1981aa;
+}
